@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passo com DOM</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.25em;
+            text-shadow: 2px 2px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id='msg'>Clique aqui</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1] // Criação de uma variável usando getElementsByTagName
+        /*
+        O mesmo serve para classes
+        */
+        var d2 = window.document.querySelector('div#msg') // Criação de uma variável usando querySelector (Recomendado)
+        d2.style.backgroundColor = 'gray'
+        d2.innerText = 'Estou aguardando...'
+    </script>
+</body>
+</html>
