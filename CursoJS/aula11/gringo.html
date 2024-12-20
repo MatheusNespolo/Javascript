@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRINGO</title>
+    <style>
+        body {
+            height: 90vh;
+            color: white;
+            background-color: darkslategray;   
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>GRINGO ou Brazuca?</h1>
+    <h2>Qual seu país?</h2>
+    <input type="text" name="país" id="país">
+    <input type="button" value="Coé?!" onclick="checa()">
+    <div>Você é...</div>
+    <div id="br"></div>
+    <div id="grin"></div>
+    <script>
+        function checa(){
+            var seupaís = document.querySelector('input#país')
+            if (seupaís = 'Brasil') {
+                br.innerHTML = 'brazuca!'
+                grin.innerHTML = ''
+            } else {
+                br.innerHTML = ''
+                grin.innerHTML = 'gringo.'
+            }
+        }
+    </script>
+</body>
+</html>
