@@ -22,17 +22,15 @@
     <input type="text" name="país" id="país">
     <input type="button" value="Coé?!" onclick="checa()">
     <div>Você é...</div>
-    <div id="br"></div>
-    <div id="grin"></div>
+    <div id="res"></div>
     <script>
         function checa(){
             var seupaís = document.querySelector('input#país')
+            var vazio = ''
             if (seupaís = 'Brasil') {
-                br.innerHTML = 'brazuca!'
-                grin.innerHTML = ''
+                res.innerHTML = 'brazuca!'
             } else {
-                br.innerHTML = ''
-                grin.innerHTML = 'gringo.'
+                res.innerHTML = 'gringo.'
             }
         }
     </script>
