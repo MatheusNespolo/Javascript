@@ -19,15 +19,15 @@
 <body>
     <h1>GRINGO ou Brazuca?</h1>
     <h2>Qual seu país?</h2>
-    <input type="text" name="país" id="país">
+    <input type="text" name="pais" id="pais">
     <input type="button" value="Coé?!" onclick="checa()">
     <div>Você é...</div>
     <div id="res"></div>
     <script>
         function checa(){
-            var seupaís = document.querySelector('input#país')
+            var seupais = document.querySelector('input#pais')
             var vazio = ''
-            if (seupaís = 'Brasil') {
+            if (seupais = 'Brasil') {
                 res.innerHTML = 'brazuca!'
             } else {
                 res.innerHTML = 'gringo.'
