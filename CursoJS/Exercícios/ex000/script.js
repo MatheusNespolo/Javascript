@@ -1,0 +1,1 @@
+alert('Olá, Matheus!'); // Exibe um alerta com a mensagem "Olá, Matheus!".
