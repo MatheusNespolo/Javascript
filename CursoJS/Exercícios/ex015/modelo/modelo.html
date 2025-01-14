@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+            <div>
+                <p>Informe o ano de nascimento: <input type="number" name="txtano" id="txtano" max="2025"></p>
+                <p>Sexo: <input type="radio" name="radsex" id="radmasc" checked>
+                    <label for="radmasc">Masculino</label>
+                <input type="radio" name="radfem" id="radfem">
+                    <label for="radfem">Feminino</label></p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </div>
+            <div>
+                <img id="imagem" src="" alt="Imagem de uma pessoa">
+            </div>
+            <div id="res">
+                <p>Preencha os dados acima para verificar a idade.</p>
+            </div>
+    </section>
+    <footer>
+        <p>&copy; Matheus Nespolo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
