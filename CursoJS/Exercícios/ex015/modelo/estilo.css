@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color: lightblue;
     font: normal 15pt Arial;
 }
 
@@ -21,8 +21,9 @@ section {
     box-shadow: black 3px 3px 10px;
 }
 
-div#msg {
+div#res {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -30,8 +31,8 @@ div#msg {
 img {
     padding: 20px;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 footer {
