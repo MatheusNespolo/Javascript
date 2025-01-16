@@ -1,0 +1,49 @@
+body {
+    background-color: darkorange;
+    font: normal 15pt Arial;
+}
+
+header {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+
+div#entradas {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input#botao {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    box-shadow: black 3px 3px 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
