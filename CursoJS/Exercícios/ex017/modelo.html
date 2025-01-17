@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de exercício</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-            <div>
-                <p>Testando...</p>
+            <div id="entradas">
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero">
+                <button id="botao" onclick="tabuada()">Tabuada</button>
             </div>
             <div>
-                <p>Olá, Matheus!</p>
+                <!-- <marquee name="resultado" id="resultado" placeholder="Digite um número acima."></marquee> Letreiro pra ficar chavão-->
+                <textarea readonly name="resultado" id="resultado" placeholder="Digite um número acima."></textarea>
+                 <!-- textarea com readonly pra não dar pra apagar -->
             </div>
     </section>
     <footer>

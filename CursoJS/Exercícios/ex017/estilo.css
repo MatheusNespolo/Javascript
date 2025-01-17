@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color: darkslateblue;
     font: normal 15pt Arial;
 }
 
@@ -8,6 +8,23 @@ header {
     border: 2px solid black;
     color: white;
     text-align: center;
+}
+
+div#entradas {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+input#numero {
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+    padding: 10px;
+    height: 165px;
+    margin: auto;
+    display: block;
 }
 
 section {
