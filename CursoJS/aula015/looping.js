@@ -1,4 +1,4 @@
-let valores = [8, 1, 7, 4, 2, 9]
+let valores = [8, 1, 7, 4, 2, 9] // Array com 6 posições
 
 // console.log(valores[0]) # Não é uma boa prática
 // console.log(valores[1])
