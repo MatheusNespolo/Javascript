@@ -9,5 +9,5 @@ console.log(`O vetor agora tem ${num.length} posições`)
 console.log(`O primeiro valor do vetor é ${num[0]}`)
 
 num.sort()
-console.log(`Com a ordenação, o primeiro valor do vetor  agora é ${num[0]}`)
+console.log(`Com a ordenação, o primeiro valor do vetor agora é ${num[0]}`)
 console.log(num)
