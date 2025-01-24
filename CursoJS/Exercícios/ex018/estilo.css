@@ -1,0 +1,57 @@
+body {
+    background-color: lightseagreen;
+    font: normal 15pt Arial;
+}
+
+header {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+
+div#entradas {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+div#saidas {
+    margin-bottom: 20px;
+}
+
+input#numero {
+    text-align: center;
+}
+
+textarea#atualizado {
+    text-align: center;
+    padding: 10px;
+    height: 165px;
+    margin-left: 50px;
+    display: flexbox;
+}
+
+textarea#resultado {
+    text-align: center;
+    padding: 10px;
+    height: 165px;
+    margin-right: 50px;
+    display: flexbox;
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    box-shadow: black 3px 3px 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section>
+            <div id="entradas">
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero">
+                <button id="add" onclick="adicionar()">Adicionar</button>
+            </div>
+            <div id="saidas">
+                <!-- <marquee name="resultado" id="resultado" placeholder="Digite um número acima."></marquee> Letreiro pra ficar chavão-->
+                <textarea readonly name="atualizado" id="atualizado" placeholder="Digite um número acima."></textarea>
+                 <!-- textarea com readonly pra não dar pra apagar -->
+                 <textarea readonly name="resultado" id="resultado" placeholder="O resultado aparecerá aqui."></textarea>
+                  <button id="fim" onclick="finalizar()">Finalizar</button>
+            </div>
+    </section>
+    <footer>
+        <p>&copy; Matheus Nespolo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
