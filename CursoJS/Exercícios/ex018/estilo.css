@@ -11,8 +11,10 @@ header {
 }
 
 div#entradas {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto;
+    display: flexbox;
 }
 
 div#saidas {
@@ -21,6 +23,8 @@ div#saidas {
 
 input#numero {
     text-align: center;
+    padding: 10px;
+    width: 190px;
 }
 
 textarea#atualizado {
@@ -45,7 +49,7 @@ section {
     background-color: white;
     border-radius: 10px;
     padding: 5px;
-    width: 500px;
+    width: 700px;
     margin: auto;
     box-shadow: black 3px 3px 10px;
 }
