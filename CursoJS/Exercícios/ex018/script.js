@@ -1,27 +1,34 @@
-function adicionar() {
-    var num = document.getElementById('numero')
-    var updt = document.getElementById('atualizado')
-    let lista = []
+// Declaração de variáveis fora das funções é uma boa prática de programação para evitar problemas de escopo.
+
+var num = document.getElementById('numero')
+var updt = document.getElementById('atualizado')
+var res = document.getElementById('resultado')
+let lista = []
+var soma = 0
+
+function adicionar() { // Função para adicionar valores à lista.
 
     if (Number(num.value) < 1 || Number(num.value) > 100) {
         alert('Por favor, insira um número entre 1 e 100!')
+    } else if (lista.indexOf(Number(num.value)) > -1) { // indexOf retorna -1 se o valor não for encontrado.
+        alert('Valor já adicionado!')
     } else {
         lista.push(Number(num.value))
-        updt.innerHTML += `O número ${num.value} foi adicionado.\n`
+        updt.innerHTML += `Valor ${num.value} adicionado.\n`
+        soma += Number(num.value)
     }
+    num.value = ''
+
 }
 
-function finalizar() {
-    var num = document.getElementById('numero')
-    var res = document.getElementById('resultado')
-    let lista = []
+function finalizar() { // Função para finalizar a lista e mostrar os resultados.
 
-    if (lista.length == 0) {
-        alert('Por favor, adicione um número antes de finalizar!')
-    } else {
-        res.innerHTML += `O maior número é ${Math.max.apply(null, lista)}.\n`
-        res.innerHTML += `O menor número é ${Math.min.apply(null, lista)}.\n`
-        res.innerHTML += `A soma dos números é ${lista.reduce((a, b) => a + b, 0)}.\n`
-        res.innerHTML += `A média dos números é ${lista.reduce((a, b) => a + b, 0) / lista.length}.\n`
-    }
+    res.innerHTML = ''
+
+    res.innerHTML += `Ao todo, temos ${lista.length} números cadastrados.\n`
+    res.innerHTML += `O maior valor informado foi ${Math.max.apply(null, lista)}.\n`
+    res.innerHTML += `O menor valor informado foi ${Math.min.apply(null, lista)}.\n`
+    res.innerHTML += `Somando todos os valores, temos ${soma}.\n`
+
+    updt.innerHTML = ''
 }
