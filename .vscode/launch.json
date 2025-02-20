@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Codedex\\planetWeight.js"
+            "program": "${workspaceFolder}\\Codedex\\coin.js"
         }
     ]
 }
