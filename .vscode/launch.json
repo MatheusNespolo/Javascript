@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Codedex\\pH-Levels.js"
+            "program": "${workspaceFolder}\\Codedex\\magic8.js"
         }
     ]
 }
