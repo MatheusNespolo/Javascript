@@ -1,6 +1,6 @@
 // Magic 8 Ball
 
-const numeroQualquer = Math.floor(Math.random() * 9) + 1;
+const numeroQualquer = Math.floor(Math.random() * 6) + 1;
 
 if (numeroQualquer == 0) {
     console.log('Sim, com certeza!');
