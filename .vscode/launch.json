@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Codedex\\magic8.js"
+            "program": "${workspaceFolder}\\Codedex\\air-quality-index.js"
         }
     ]
 }
