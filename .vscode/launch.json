@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Codedex\\not-tell-lies.js"
+            "program": "${workspaceFolder}\\Codedex\\even-odds.js"
         }
     ]
 }
