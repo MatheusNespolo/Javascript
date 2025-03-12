@@ -3,14 +3,15 @@
 let num = 888;
 let binario = '';
 
-// Binário
-for (num; num > 0; Math.floor(num / 2)) {
-    num = Math.floor(num / 2);
-    if (num % 2 == 0) {
-        binario += 0;
-    } else {
-        binario += 1;
-    }
+// Binário com convertToBinary
+
+bin = num.toString(2);
+console.log(bin);
+
+// Binário com for
+for (let i = num; i > 0; i = Math.floor(i / 2)) {
+  binario = (i % 2) + binario;
+    
 }
 
 console.log(binario);
