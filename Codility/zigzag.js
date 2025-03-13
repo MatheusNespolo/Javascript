@@ -1,4 +1,4 @@
-//  Run with Node.js
+// Run with Node.js
 // Definição da estrutura da árvore binária
 class Tree {
     constructor(x, l = null, r = null) {
@@ -33,8 +33,4 @@ function solution(T) {
     return maxZigzag;
 }
 
-// Árvore de exemplo
-const T = new Tree(1, new Tree(2, new Tree(3), new Tree(4)), new Tree(5, new Tree(6), new Tree(7)));
-
-// Encontra o maior zigzag na árvore
-const result = solution(T);
+// Exemplo de uso
